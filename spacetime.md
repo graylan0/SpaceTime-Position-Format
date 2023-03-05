@@ -1,4 +1,5 @@
-`import datetime
+```
+import datetime
 from pytz import timezone
 import math
 
@@ -24,7 +25,7 @@ t_prime = (t - (v * x)/(c2))/math.sqrt(1 - (v2/c2))
 
 # Output x, y, z, and t values
 print('x = ' + str(x_prime) + ', y = ' + str(y_prime) + ', z = ' + str(z_prime) + ', t = ' + str(t_prime))
-`
+````
 
 Output:
 x = 78122.5, y = 4, z = 3, t = 2022.9999999999995
@@ -36,7 +37,7 @@ This code defines the relative velocity between the two observers as 0.5 (arbitr
 
 chatGpt Reply
 
-`
+```
 It appears that there are a few errors in your code. Here are some issues:
 
     The variable "v" is not defined in your code. You would need to define the relative velocity of the two observers in order to apply the Lorentz transformation.
@@ -48,4 +49,4 @@ It appears that there are a few errors in your code. Here are some issues:
     In the Lorentz transformation equations, the square root function is represented by the symbol "√", not "sqrt".
 
 Here is an example of how you could modify the code to correct these issues:
-`
+```
